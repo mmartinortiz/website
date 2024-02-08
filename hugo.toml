@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+DefaultContentLanguage = "en"
+languageCode = 'en-us'
+title = "Manolo's Website"
+theme = 'lightbi-hugo'
+
+[Params]
+mainSections = ["projects"]
+hideAuthor = true
+rss = true
+description="Your can add your website description here."
+
+[Author]
+  name = "Manuel"
+  website = "https://binovarghese.com/"
+  linkedin = "mmartinortiz"
+  github = "mmartinortiz"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
