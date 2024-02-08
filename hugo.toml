@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://mmartinortiz.github.io/website/'
 DefaultContentLanguage = "en"
 languageCode = 'en-us'
 title = "Manolo's Website"
@@ -12,7 +12,7 @@ description="Your can add your website description here."
 
 [Author]
   name = "Manuel"
-  website = "https://binovarghese.com/"
+  website = "https://mmartinortiz.github.io/"
   linkedin = "mmartinortiz"
   github = "mmartinortiz"
 
