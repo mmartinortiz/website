@@ -2,7 +2,7 @@
 title = 'Master Robots Project'
 date = 2024-01-07T14:30:52+01:00
 image = "/img/epuck.jpg"
-draft = true
+draft = false
 +++
 
 As part of my university studies, I undertook two projects centered around robots.
