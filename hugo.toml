@@ -1,7 +1,7 @@
 baseURL = 'https://mmartinortiz.github.io/website/'
 DefaultContentLanguage = "en"
 languageCode = 'en-us'
-title = "Manolo's Website"
+title = "Manuel's bits and bytes"
 theme = 'lightbi-hugo'
 
 [Params]
