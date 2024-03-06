@@ -1,7 +1,7 @@
 +++
 title = 'Table Clock'
 date = 2024-03-06T20:36:30+01:00
-draft = true
+draft = false
 image = "img/table-clock.jpeg"
 +++
 
