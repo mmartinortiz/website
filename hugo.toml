@@ -3,16 +3,23 @@ DefaultContentLanguage = "en"
 languageCode = 'en-us'
 title = "Manuel's bits and bytes"
 theme = 'lightbi-hugo'
+summaryLength  = "30"
 
 [Params]
 mainSections = ["projects"]
 hideAuthor = true
 rss = true
-description="Your can add your website description here."
+comments = false
+readingTime = false
+wordCount = false
+useHLJS = true
+gcse = false
+Lastmod = true
+description="My personal projects, a collection of DIY experiments, software toys and other stuff."
 
 [Author]
   name = "Manuel"
-  website = "https://mmartinortiz.github.io/"
+  website = "https://mmartinortiz.github.io/website"
   linkedin = "mmartinortiz"
   github = "mmartinortiz"
 
