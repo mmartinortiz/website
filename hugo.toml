@@ -9,6 +9,7 @@ summaryLength  = "30"
 mainSections = ["projects"]
 hideAuthor = true
 rss = true
+selfHosted = true
 comments = false
 readingTime = false
 wordCount = false
