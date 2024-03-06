@@ -1,6 +1,6 @@
 ---
 type: "tags"
-title: "About"
+title: "About me"
 layout: "about"
 draft: false
 ---
