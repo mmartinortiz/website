@@ -3,7 +3,8 @@ DefaultContentLanguage = "en"
 languageCode = 'en-us'
 title = "Manuel's bits and bytes"
 theme = 'lightbi-hugo'
-summaryLength  = "30"
+summaryLength = 30
+staticDir = ["static", "assets"]
 
 [Params]
 mainSections = ["projects"]
@@ -16,15 +17,15 @@ wordCount = false
 useHLJS = true
 gcse = false
 Lastmod = true
-description="My personal projects, a collection of DIY experiments, software toys and other stuff."
+description = "My personal projects, a collection of DIY experiments, software toys and other stuff."
 
 [Author]
-  name = "Manuel"
-  website = "https://mmartinortiz.github.io/website"
-  linkedin = "mmartinortiz"
-  github = "mmartinortiz"
+name = "Manuel"
+website = "https://mmartinortiz.github.io/website"
+linkedin = "mmartinortiz"
+github = "mmartinortiz"
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 5
+name = "About"
+url = "/about/"
+weight = 5
