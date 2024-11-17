@@ -19,7 +19,7 @@ gcse = false
 Lastmod = true
 description = "My personal projects, a collection of DIY experiments, software toys and other stuff."
 
-[Author]
+[Params.Author]
 name = "Manuel"
 website = "https://mmartinortiz.github.io/website"
 linkedin = "mmartinortiz"
