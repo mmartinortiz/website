@@ -9,7 +9,7 @@ staticDir = ["static", "assets"]
 [Params]
 mainSections = ["projects"]
 hideAuthor = true
-hidePostImage = true
+showPostImage = true
 rss = true
 selfHosted = true
 comments = false
