@@ -1,9 +1,9 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "hugo@latest": {
-      "last_modified": "2024-05-22T06:18:38Z",
-      "resolved": "github:NixOS/nixpkgs/3f316d2a50699a78afe5e77ca486ad553169061e#hugo",
+    "hugo@0.126.1": {
+      "last_modified": "2024-05-29T10:04:41Z",
+      "resolved": "github:NixOS/nixpkgs/ac82a513e55582291805d6f09d35b6d8b60637a1#hugo",
       "source": "devbox-search",
       "version": "0.126.1",
       "systems": {

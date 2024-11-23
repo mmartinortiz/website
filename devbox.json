@@ -1,5 +1,5 @@
 {
-  "packages": ["hugo@latest", "pre-commit@latest"],
+  "packages": ["hugo@0.126.1", "pre-commit@latest"],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
     "scripts": {
