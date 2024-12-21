@@ -1,7 +1,7 @@
 +++
 title = 'Chip8 Emulator'
 date = 2024-12-21T20:38:16+02:00
-draft = true
+draft = false
 image = "img/chip8.png"
 +++
 
