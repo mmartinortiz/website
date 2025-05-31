@@ -1,0 +1,41 @@
+{
+  "name": "Python",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/pre-commit:2": {},
+    "ghcr.io/devcontainers-extra/features/starship:1": {},
+    "ghcr.io/meaningful-ooo/devcontainer-features/fish:2": {},
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "0.126.1",
+      "extended": true
+    }
+  },
+  "initializeCommand": {
+    "create permanent fish history": "mkdir -p ~/.devcontainer/${devcontainerId} && touch ~/.devcontainer/${devcontainerId}/fish_history"
+  },
+  "onCreateCommand": {
+    "pre-commit": "if [ -e .pre-commit-config.yaml ]; then pre-commit install --install-hooks; fi",
+    "starship eyecandy": ".devcontainer/starship-eyecandy.sh"
+  },
+  "mounts": [
+    {
+      "source": "${localEnv:HOME}/.devcontainer/${devcontainerId}/fish_history",
+      "target": "/home/vscode/.local/share/fish/fish_history",
+      "type": "bind"
+    }
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "tamasfe.even-better-toml",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker",
+        "budparr.language-hugo-vscode",
+        "akmittal.hugofy"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "fish"
+      }
+    }
+  }
+}
