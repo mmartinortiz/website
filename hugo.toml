@@ -1,4 +1,4 @@
-baseURL = 'https://mmartinortiz.github.io/website/'
+baseURL = 'https://martin-ortiz.eu'
 DefaultContentLanguage = "en"
 languageCode = 'en-us'
 title = "Manuel's bits and bytes"
@@ -22,7 +22,7 @@ description = "My personal projects, a collection of DIY experiments, software t
 
 [Params.Author]
 name = "Manuel"
-website = "https://mmartinortiz.github.io/website"
+website = "https://martin-ortiz.eu"
 linkedin = "mmartinortiz"
 github = "mmartinortiz"
 
