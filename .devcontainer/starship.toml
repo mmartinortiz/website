@@ -1,0 +1,5 @@
+# format = "$git_branch $git_status\n> "
+
+[container]
+style = "bold #af8700"
+format = '[$symbol \[devcontainer\]]($style) '
