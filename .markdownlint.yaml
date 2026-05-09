@@ -1,0 +1,47 @@
+# markdownlint configuration
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+# Default state for all rules
+default: true
+
+# MD013/line-length - Line length
+MD013:
+  line_length: 300
+  heading_line_length: 100
+  code_block_line_length: 200
+  tables: false
+
+# MD033/no-inline-html - Inline HTML
+MD033:
+  allowed_elements:
+    - br
+    - sup
+    - sub
+    - kbd
+    - details
+    - summary
+    - figure
+    - figcaption
+    - img
+    - video
+    - source
+    - iframe
+
+# MD041/first-line-heading - First line in file should be a heading
+MD041: false
+
+# MD024/no-duplicate-heading - Multiple headings with the same content
+MD024:
+  siblings_only: true
+
+# MD026/no-trailing-punctuation - Trailing punctuation in heading
+MD026:
+  punctuation: ".,;:!"
+
+# MD046/code-block-style - Code block style
+MD046:
+  style: fenced
+
+# MD007/ul-indent - Unordered list indentation
+MD007:
+  indent: 2
