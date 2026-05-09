@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "linkinator": "^7.6.1",
-    "markdownlint-cli": "^0.39.0",
+    "markdownlint-cli": "^0.48.0",
     "pa11y-ci": "^3.1.0",
     "vitest": "^1.6.0",
     "jsdom": "^24.0.0"
