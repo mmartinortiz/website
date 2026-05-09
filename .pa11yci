@@ -1,0 +1,16 @@
+{
+  "defaults": {
+    "timeout": 30000,
+    "wait": 500,
+    "standard": "WCAG2AA",
+    "runners": ["axe"],
+    "ignore": [
+      "color-contrast"
+    ]
+  },
+  "urls": [
+    "http://localhost:1313/",
+    "http://localhost:1313/about/",
+    "http://localhost:1313/projects/"
+  ]
+}
