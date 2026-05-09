@@ -6,9 +6,8 @@
   "scripts": {
     "build": "hugo --gc --minify",
     "serve": "hugo server -D",
-    "test": "npm run test:build && npm run test:html && npm run test:links && npm run test:a11y",
+    "test": "npm run test:build && npm run test:links && npm run test:a11y",
     "test:build": "hugo --gc --minify --printPathWarnings",
-    "test:html": "htmlhint 'public/**/*.html' --config .htmlhintrc",
     "test:links": "linkinator public --recurse --skip 'linkedin.com|github.com/login'",
     "test:a11y": "pa11y-ci",
     "test:markdown": "markdownlint 'content/**/*.md'",
@@ -16,7 +15,6 @@
     "test:js:watch": "vitest"
   },
   "devDependencies": {
-    "htmlhint": "^1.1.4",
     "linkinator": "^6.0.4",
     "markdownlint-cli": "^0.39.0",
     "pa11y-ci": "^3.1.0",

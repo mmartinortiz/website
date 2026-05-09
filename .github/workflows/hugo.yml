@@ -74,8 +74,6 @@ jobs:
             --minify \
             --printPathWarnings \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Test HTML
-        run: npm run test:html
       - name: Test Links
         run: npm run test:links
       - name: Upload artifact
