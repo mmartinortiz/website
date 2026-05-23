@@ -1,6 +1,7 @@
 {
   "name": "Hugo Website",
   "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "appPort": ["0.0.0.0:1313:1313"],
   "features": {
     "ghcr.io/devcontainers-extra/features/pre-commit:2": {
       "version": "latest"
