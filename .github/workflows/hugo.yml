@@ -70,6 +70,8 @@ jobs:
             --minify \
             --printPathWarnings \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Build Pagefind search index
+        run: npx pagefind --site public
       - name: Test Links
         run: npm run test:links
       - name: Upload artifact
