@@ -1,6 +1,6 @@
 baseURL = 'https://martin-ortiz.eu'
 DefaultContentLanguage = "en"
-languageCode = 'en-us'
+locale = 'en-us'
 title = "Manuel's bits and bytes"
 theme = 'lightbi-hugo'
 summaryLength = 30
