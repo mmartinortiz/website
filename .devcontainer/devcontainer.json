@@ -3,8 +3,8 @@
   "image": "mcr.microsoft.com/devcontainers/base:bookworm",
   "appPort": ["0.0.0.0:1313:1313"],
   "features": {
-    "ghcr.io/devcontainers-extra/features/pre-commit:2": {
-      "version": "latest"
+    "ghcr.io/va-h/devcontainers-features/uv:1": {
+      "shellautocompletion": "true"
     },
     "ghcr.io/devcontainers-extra/features/starship:1": {
       "version": "latest"
@@ -24,14 +24,15 @@
     "create permanent fish history": "mkdir -p ~/.devcontainer/${devcontainerId} && touch ~/.devcontainer/${devcontainerId}/fish_history"
   },
   "onCreateCommand": {
-    "pre-commit": "pre-commit install --install-hooks",
+    "install prek": "uv tool install prek",
+    "install pre-commit hooks": "uv tool run prek install --install-hooks",
     "setup configs": ".devcontainer/setup-configs.sh"
   },
   "postCreateCommand": {
     "git submodules": "git submodule update --init --recursive"
   },
   "updateContentCommand": {
-    "pre-commit autoupdate": "pre-commit autoupdate"
+    "pre-commit autoupdate": "uv tool run prek autoupdate"
   },
   "forwardPorts": [1313],
   "portsAttributes": {
