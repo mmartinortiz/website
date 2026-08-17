@@ -2,7 +2,7 @@
 title = 'Greenhouse Sensor'
 date = 2024-05-19T11:35:16+02:00
 draft = false
-image = "img/greenhouse-sensor.jpg"
+image = "/img/greenhouse-sensor.jpg"
 +++
 
 This is a little project for our greenhouse. Even if we do not really need it (and I still need to make sure that the battery will be safe), this circuit uses a Raspberry Pi Pico for monitoring temperature, humidity, gas and and atmospheric pressure. The collected information is sent every 5 minutes to my Home Assistance instance via MQTT.

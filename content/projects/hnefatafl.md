@@ -1,7 +1,7 @@
 +++
 title = 'Hnefatafl'
 date = 2025-08-10T18:48:15Z
-image = "img/hnefatafl.jpg"
+image = "/img/hnefatafl.jpg"
 +++
 
 During my holidays, I've been reading _[Breve Historia de los Juegos de Mesa](https://ludotecapampala.wordpress.com/2023/01/20/breve-historia-de-los-juegos-de-mesa-nueva-edicion/)_, a gentle introduction to the origin and history of various board games. From the earliest known examples, like the [Royal Game of Ur](https://en.wikipedia.org/wiki/Royal_Game_of_Ur), to modern mechanics.

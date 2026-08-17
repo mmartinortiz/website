@@ -2,7 +2,7 @@
 title = 'Table Clock'
 date = 2024-03-06T20:36:30+01:00
 draft = false
-image = "img/table-clock.jpeg"
+image = "/img/table-clock.jpeg"
 +++
 
 Using an ESP32, a potentiometer, a temperature and humidity sensor, and a sleek 7-segment display, I crafted a functional and stylish addition to any workspace.
