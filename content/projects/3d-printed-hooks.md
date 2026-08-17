@@ -2,7 +2,7 @@
 title = '3d Printed Hooks'
 date = 2025-05-31T12:50:24Z
 draft = false
-image = "img/hooks.png"
+image = "/img/hooks.png"
 +++
 
 Recently I got a 3D printer and I have been experimenting with it. After a few prints for "very important things", like a [drill guide](https://www.printables.com/model/644028-drill-guide-and-dust-catcher), a [wine bottle holder](https://www.printables.com/model/97000-wine-bottle-holder-for-my-new-kitchen) or a [Lego Extension Card](https://www.printables.com/make/2644977) for my Framework laptop, I thought that it was time to design something myself.

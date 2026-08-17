@@ -2,7 +2,7 @@
 title = 'Openflexure'
 date = 2026-08-17T18:11:54Z
 draft = false
-image = "img/microscope.jpg"
+image = "/img/microscope.jpg"
 +++
 
 This year I attended [FOSDEM](https://fosdem.org) in Brussels, and I fell in love with the stand where the people from [OpenFlexure](https://openflexure.org/) were showing off their microscope.
