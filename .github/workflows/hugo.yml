@@ -52,7 +52,7 @@ jobs:
         with:
           node-version: "22"
       - name: Install Node.js dependencies
-        run: npm install
+        run: npm ci
       - name: Test Markdown
         run: npm run test:markdown
       - name: Test JavaScript
